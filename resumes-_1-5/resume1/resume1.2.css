@@ -1,0 +1,256 @@
+
+body{
+    background-color: grey;
+}
+
+.main-content{
+height: 1600px;
+    width: 1000px;
+      background-color:WHITE;    
+
+}
+.left{
+height: 1650px;
+    width: 330px;
+      background-color:black;    
+float:left;
+
+}
+.right{
+height: 1650px;
+    width: 670px;
+      background-color:white;    
+float:left;
+
+}
+.name{
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ margin-top:3rem;
+padding-bottom:.5rem;
+}
+.career{
+    font-size: 1.2rem;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding-bottom: 1rem;
+font-weight:bold;
+font-family:sans-serif;
+}
+.s-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: grey;
+    position: relative;
+}
+
+.s-title::after{
+    content: "";
+    position: absolute;
+    width: 80%;
+    height:.2rem;
+    background-color:grey;
+    border-radius: 8px;
+    right: 3rem;
+    left:2rem;
+    top:1rem;
+    transform: translateY(-50%);
+ 
+}
+.title2{
+     font-size:1.8rem;
+font-weight:bold;
+    padding-top:2rem;
+    letter-spacing:1px;  
+
+  font-family: Times New Roman;
+padding-left:3rem;
+  padding-right:1rem;
+
+ }
+.p-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: grey;
+    position: relative;
+}
+
+.p-title::after{
+    content: "";
+    position: absolute;
+    width: 83%;
+    height: .2rem;
+    background-color: grey;
+    border-radius: 8px;
+    right: 3rem;
+    left:3rem;
+    top:1rem;
+    transform: translateY(-50%);
+ 
+}
+.para{
+     font-size:1.3rem;
+padding-top:2rem;
+   line-height:1.8rem;  
+  font-family:SERIF;
+ margin-left:3rem;
+  padding-right:3rem;
+padding-bottom:1rem;
+
+ }
+.title1{
+     font-size:1.5rem;
+font-weight:bold;
+    padding-top:3rem;
+    letter-spacing:1px;  
+color:white;
+  font-family: Times New Roman;
+padding-left:3rem;
+  padding-right:1rem;
+
+ }
+.con-title{
+font-size:18px;
+font-weight:bold;
+font-family:ui-system;
+margin-top:-3.5rem;
+padding-left:3rem;
+}
+p{margin:0;
+padding:0;}
+.con-info{
+font-size:16px;
+line-height:20px;
+padding-top:5px;
+font-family:arial;
+line-height:1.5rem;
+padding-left:3rem;
+}
+.p3{
+     font-size:1.3rem;
+    padding-top:2rem;
+font-family: serif;
+ margin-left:3rem;
+  padding-right:2rem;
+padding-bottom:.1rem;
+FONT-WEIGHT:BOLD;
+color:white;
+
+ }
+
+.p5{
+     font-size:1.1rem;
+    padding-top:1rem;
+font-family: system-ui;
+ margin-left:3rem;
+  padding-right:2rem;
+padding-bottom:.1rem;
+color:white;
+ }
+.p1{
+     font-size:1.1rem;
+    padding-top:3rem;
+font-family: system-ui;
+ margin-left:6rem;
+  padding-right:2rem;
+padding-bottom:.1rem;
+FONT-WEIGHT:BOLD;
+
+
+ }
+.p6{
+     font-size:1.1rem;
+    padding-top:1.5rem;
+font-family: system-ui;
+ margin-left:6rem;
+  padding-right:2rem;
+padding-bottom:.1rem;
+FONT-WEIGHT:BOLD;
+
+
+ }
+
+.p2{
+     font-size:1.1rem;
+    padding-top:0rem;
+font-family: system-ui;
+ margin-left:6rem;
+  padding-right:2rem;
+padding-bottom:.1rem;
+
+ }
+.p7{
+     font-size:1.1rem;
+    padding-top:0rem;
+font-family: system-ui;
+ margin-left:6rem;
+  padding-right:2rem;
+padding-bottom:.1rem;
+color:blue;
+ }
+
+.progress-bar{
+    width:85%;
+    height: .7rem;
+    background-color:white;
+    position: relative;
+  border:1px solid #6f6465;
+padding-left:1rem;
+}
+.progress{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color:#6f6465;
+    
+}
+.js-progress{
+    width: 70%;
+}
+.ps-progress{
+    width: 90%;
+
+}
+.j-progress{
+    width: 85%;
+}
+.skill-title{
+color:white;
+   font-size: 20px;
+}
+.skills-section ul{                         
+    padding-bottom:1rem;
+
+}
+.skills-section ul li{
+    display: grid;
+padding-top:.9rem;
+    grid-template-columns: repeat(3, 1fr);
+   padding-bottom: 1rem;
+
+}
+table{
+width:100%;
+padding-left:3rem;
+}
+td{
+padding-top:8px;
+}
+.ref-title{
+font-size:20px;
+font-weight:bold;
+padding-top:8px;
+}
+.ref-head{
+font-size:17px;
+}
+.ref-info{
+font-size:15px;
+}
+
+

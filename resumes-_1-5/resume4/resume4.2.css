@@ -1,0 +1,403 @@
+
+body{
+background-color:grey;
+}
+P{margin:0;
+padding:0;}
+.main-content{
+height:1600px;
+width:1000px;
+background-color:white;
+}
+.profile{
+border-bottom:3px solid #800000;
+height:370px;
+width:900px;
+margin-left:3rem;
+}
+.name{
+font-size:4.8rem;
+font-family:"Book Antiqua";
+float:left;
+letter-spacing:7px;
+color:#800000;
+padding-left:2rem;
+padding-top:2rem;
+}
+.sub-name{
+font-size:20px;
+float:right;
+color:#800000;
+letter-spacing:3px;
+padding-top:180px;
+margin-right:15rem;
+font-weight:bold;
+}
+.right-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2F80ED;
+    margin-bottom: 1.2rem;
+    position: relative;
+margin-top:-3rem;
+margin-left:180px;
+}
+
+.right-title::after{
+    content: "";
+    position: absolute;
+    width:40%;
+    height: .2rem;
+    background-color: #800000;
+    border-radius: 12px;
+    right: 80%;
+    top: 16rem;
+    transform: translateY(-50%);
+}
+.right-title1{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2F80ED;
+    margin-bottom: 1.2rem;
+    position: relative;
+
+}
+
+.right-title1::after{
+    content: "";
+    position: absolute;
+    width:93%;
+    height: .2rem;
+    background-color: #800000;
+    border-radius: 12px;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+   left: 2rem;
+}
+.title{
+
+font-size:20px;
+color:black;
+font-weight:bold;
+font-family:sans-serif;
+padding-top:20px;
+text-align:center;
+}
+.para{
+text-align:center;
+font-size:15px;
+color:black;
+padding:2rem;
+font-family:serif;
+}
+.contact{
+height:200px;
+width:200px;
+border:2px solid #800000;
+float:right;
+margin-top:2rem;
+}
+.title1{
+font-size:20px;
+font-weight:bold;
+letter-spacing:1px;
+margin-top:1rem;
+font-family:sans-serif;
+padding-left:1rem;
+}
+.contact-info{
+font-size:15px;
+
+padding-left:1rem;
+line-height:2rem;
+}
+.edu{
+height:300px;
+width:1000px;
+
+float:right;
+}
+
+.edu-div{
+height:200px;
+width:250px;
+background-color:white;
+float:right;
+}
+.edu-div1{
+height:200px;
+width:250px;
+background-color:white;
+float:left;
+}
+.edu-name{
+font-size:15px;
+text-align:left;
+font-family:system-ui;
+}
+.edu-title{
+font-size:15px;
+text-align:left;
+font-weight:bold;
+font-family:sans-serif;
+}
+.edu-para{
+text-align:left;
+font-size:15px;
+color:black;
+padding-right:1rem;
+}
+.right-title2{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2F80ED;
+   
+    position: relative;
+padding-top:350px;
+}
+
+.right-title2::after{
+    content: "";
+    position: absolute;
+    width:93%;
+    height: .2rem;
+    background-color: #800000;
+    border-radius: 12px;
+    right: 2rem;
+left:2rem;
+    top: 40%;
+    transform: translateY(-50%);
+}
+.ex{
+height:300px;
+width:1000px;
+margin-top:-11rem;
+float:right;
+}
+
+.ex-div{
+height:200px;
+width:250px;
+background-color:white;
+float:right;
+}
+.ex-div1{
+height:200px;
+width:250px;
+background-color:white;
+float:left;
+}
+.ex-name{
+font-size:15px;
+text-align:left;
+font-family:system-ui;
+}
+.ex-title{
+font-size:15px;
+text-align:left;
+font-weight:bold;
+font-family:sans-serif;
+}
+.ex-para{
+text-align:left;
+font-size:15px;
+color:black;
+padding-right:1rem;
+}
+.right-title3{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2F80ED;
+   
+    position: relative;
+padding-top:350px;
+}
+
+.right-title3::after{
+    content: "";
+    position: absolute;
+    width:93%;
+    height: .2rem;
+    background-color: #800000;
+    border-radius: 12px;
+    right: 2rem;
+left:2rem;
+    top: -1%;
+    transform: translateY(-50%);
+}
+.mid{
+height:200px;
+width:1000px;
+
+margin-top:-21rem;
+}
+.mid1{
+height:200px;
+width:500px;
+
+float:left;
+margin-top:-7rem;
+
+}
+.mid2{
+height:200px;
+width:500px;
+
+float:left;
+margin-top:-7rem;
+}
+.right-title4{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2F80ED;
+   
+    position: relative;
+}
+
+.right-title4::after{
+    content: "";
+    position: absolute;
+    width:.3%;
+    height: 180px;
+    background-color: #800000;
+    border-radius: 12px;
+    right: 2rem;
+left:500px;
+    top: 6rem;
+    transform: translateY(-50%);
+}
+.progress-bar{
+    width:95%;
+    height: .7rem;
+    background-color:white;
+    position: relative;
+  border:1px solid #800000;
+padding-left:1rem;
+margin-top:.8rem;
+}
+.progress{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #800000;
+    
+}
+.js-progress{
+    width: 70%;
+}
+.ps-progress{
+    width: 90%;
+
+}
+.j-progress{
+    width: 85%;
+}
+.skill-title{
+
+   font-size: 18px;
+padding-top:.8rem;
+}
+.skills-section ul{                         
+    padding-bottom:1rem;
+padding-left:3rem;
+padding-top:-.5rem;
+
+
+}
+.skills-section ul li{
+    display: grid;
+margin-top:-.4rem;
+    grid-template-columns: repeat(3, 1fr);
+   padding-bottom: .4rem;
+padding-left:3rem;
+}
+.last{
+height:400px;
+width:1000px;
+margin-top:-20rem;
+}
+.last1{
+height:400px;
+width:333px;
+margin-top:1rem;
+float:left;
+}
+.last2{
+height:400px;
+width:333px;
+margin-top:1rem;
+float:left;
+}
+.last3{
+height:400px;
+width:333px;
+margin-top:1rem;
+float:left;
+}
+.right-title5{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #2F80ED;
+   
+    position: relative;
+}
+
+.right-title5::after{
+    content: "";
+    position: absolute;
+    width:.6%;
+    height:380px;
+    background-color: #800000;
+    border-radius: 12px;
+    right: 2rem;
+left:333px;
+    top: 11.5rem;
+    transform: translateY(-50%);
+}
+.p3{
+     font-size:18px;
+    padding-top:1rem;
+font-family:serif;
+text-align:center;
+padding-bottom:.1rem;
+FONT-WEIGHT:BOLD;
+
+
+ }
+
+.p5{
+     font-size:15px;
+    margin-top:.4rem;
+font-family: system-ui;
+text-align:center;
+
+
+
+ }
+.p4{
+     font-size:15px;
+    margin-top:.4rem;
+font-family: system-ui;
+text-align:center;
+
+color:grey;
+ }
+.upper {
+  display: grid;
+  grid-template-columns:auto auto auto ;
+  grid-gap: 0px;
+ 
+  padding-top: 4rem;
+margin-left:-6rem;
+}
+
+.upper > div {
+height:50px;
+width:240px;
+ 
+  padding-top:20px;
+ padding-left:3.7rem;
+  font-size: 18px;
+color:black;
+}

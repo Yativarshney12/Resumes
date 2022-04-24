@@ -1,0 +1,219 @@
+
+body{
+background-color:grey;
+}    
+.main-div{
+height:1600px;
+width:1000px;
+background-color:white;
+}
+p{padding:0;
+margin:0;
+}
+.profile{
+height:200px;
+width:1000px;
+background-color:#666699;
+
+}
+.name{
+font-size:3rem;
+color:white;
+letter-spacing:2px;
+text-align:center;
+font-family:serif;
+padding-top:1rem;
+font-weight:bold;
+
+}
+.sub-name{
+font-size:22px;
+letter-spacing:2px;
+text-align:center;
+color:white;
+font-family:sans-serif;
+paddding-top:-1rem;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns:auto auto auto auto;
+  grid-gap: 0px;
+  background-color:none;
+  padding-left: 5rem;
+padding-top:2rem;
+}
+.wrapper > div {
+height:30px;
+  background-color:none;
+  
+  text-align: center;
+  font-size: 15px;
+color:white;
+border-radius:0px;
+
+}
+.grid{
+text-align:center;
+padding:15px;
+}
+.left-content{
+height:1400px;
+width:350px;
+background-color:#e6e6e6;
+padding:15px;
+float:left;
+}
+.right-content{
+height:1400px;
+width:590px;
+background-color:white;
+padding:15px;
+float:left;
+}
+.title{
+
+font-size:24px;
+color:black;
+font-weight:bold;
+font-family:sans-serif;
+padding-top:20px;
+padding-left:2rem;
+}
+.right-bar{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666666;
+    margin-bottom: 1.2rem;
+    position: relative;
+}
+
+.right-bar::after{
+    content: "";
+    position: absolute;
+    width: 90%;
+    height: .2rem;
+    background-color: #666666;
+    border-radius: 12px;
+    right: 2rem;
+    top: 50%;
+left:2rem;
+    transform: translateY(-50%);
+}
+
+.para{
+    line-height: 1.5rem;
+    color: black;
+    font-size: 1.1rem;
+padding-bottom:10px;
+padding-left:3rem;
+padding-right:3rem;
+}
+.para1{
+    line-height: 0rem;
+    color: #718096;
+    font-size: 1rem;
+padding-bottom:.6rem;
+padding-left:3rem;
+padding-right:3rem;
+font-family:sans-serif;
+padding-top:.8rem;
+
+}
+.para2{
+    line-height: 1rem;
+    color: #718096;
+    font-size: .8rem;
+font-family:sans-serif;
+padding-top:-1rem;
+padding-right:3rem;
+float:right;
+padding-bottom:.8rem;
+}
+.para3{
+    line-height: 1.4rem;
+    color: grey;
+    font-size: 1rem;
+
+}
+
+.tl-title{
+    letter-spacing: 1px;
+    font-size: 1rem;
+    color: black;
+    text-transform: uppercase;
+padding-left:3rem;
+padding-top:1rem;
+font-family:arial;
+font-weight:bold;
+}
+img{
+width:250px;
+height:250px;
+padding:3rem;
+border-radius:50%;
+}
+.progress-bar{
+    width:95%;
+    height: .7rem;
+    background-color:white;
+    position: relative;
+  border:1px solid #666699;
+padding-left:3rem;
+margin-top:.8rem;
+}
+.progress{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: #666699;
+    
+}
+.js-progress{
+    width: 70%;
+}
+.ps-progress{
+    width: 90%;
+
+}
+.j-progress{
+    width: 85%;
+}
+.skill-title{
+
+   font-size: 18px;
+padding-top:.8rem;
+}
+.skills-section ul{                         
+    padding-bottom:1rem;
+padding-left:2rem;
+padding-top:-1rem;
+
+
+}
+.skills-section ul li{
+    display: grid;
+margin-top:.4rem;
+    grid-template-columns: repeat(3, 1fr);
+   padding-bottom: .4rem;
+padding-left:.1rem;
+}
+.p3{
+     font-size:18px;
+    padding-top:.6rem;
+font-family:serif;
+padding-left:2.5rem;
+padding-bottom:.1rem;
+FONT-WEIGHT:BOLD;
+
+
+ }
+
+.p5{
+     font-size:15px;
+    margin-top:.4rem;
+font-family: system-ui;
+padding-left:2.5rem;
+
+
+
+ }

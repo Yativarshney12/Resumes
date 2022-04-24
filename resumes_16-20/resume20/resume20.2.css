@@ -1,0 +1,273 @@
+body{  
+         background-color:pink;
+        }
+.main-content{
+      height:1600px;
+      width:1000px;
+      background-color:#DCDCDC; 
+border-bottom:50px solid black; 
+border-right:20px solid grey;
+border-top:100px solid #e6e6e6;   
+}
+
+
+.left-profile{
+height:1500px;
+width:337px;
+float:left;
+border-right:3px solid black;
+}
+.right-profile{
+height:1350px;
+width:660px;
+float:left;
+}
+.last-profile{
+height:50px;
+width:1000px;
+
+float:left;
+}
+
+
+.lp2{
+height:500px;
+width:340px;
+
+float:left;
+}
+
+.lp3{
+height:700px;
+width:340px;
+float:left;
+}
+
+.rp1{
+height:150px;
+width:660px;
+background-color:#595959;
+float:left;
+}
+
+.rp2{
+height:200px;
+width:660px;
+background-color:#DCDCDC;
+float:left;
+}
+
+.rp3{
+height:150px;
+width:660px;
+background-color:#DCDCDC;
+float:left;
+}
+.rp4{
+height:350px;
+width:660px;
+background-color:#DCDCDC;
+float:left;
+}
+
+.rp5{
+height:400px;
+width:660px;
+background-color:#DCDCDC;
+float:left;
+}
+
+.title{
+    font-size: 1.5rem;
+    color:black;
+padding-bottom:5px;
+ letter-spacing: 2px;
+    padding-left:3rem;
+  padding-right:4rem;
+    font-family:sans-serif;
+padding-top:2rem;
+}
+.para{
+    font-size: 1rem;
+    color:black;
+padding-bottom:.1rem;
+ letter-spacing: 1px;
+    margin-left:3rem;
+  padding-right:4rem;
+    font-family:sans-serif;
+padding-top:2.5rem;
+}
+.para2{
+    font-size: 1rem;
+    color:black;
+padding-bottom:.6rem;
+ letter-spacing: 1px;
+    margin-left:13.5rem;
+  padding-right:4rem;
+    font-family:sans-serif;
+padding-top:.8rem;
+
+}
+.para1{
+    font-size: .9rem;
+    color:grey;
+padding-bottom:4px;
+ letter-spacing: 1px;
+    margin-left:3rem;
+  padding-right:4rem;
+    font-family:sans-serif;
+padding-top:5px;
+}
+.para4{
+    font-size: .8rem;
+    color:black;
+padding-bottom:1px;
+ letter-spacing: 1px;
+    margin-left:3rem;
+line-height:1.6rem;
+  padding-right:4rem;
+    font-family:sans-serif;
+padding-top:5px;
+}
+.name{
+    font-size: 2.4rem;
+    color:white;
+ letter-spacing: 3px;
+    margin-left:3rem;
+  padding-right:4rem;
+    font-family:Bahnschrift SemiBold;
+padding-top:2rem;
+}
+.sub-name{
+    font-size: 1.3rem;
+    color:white;
+padding-bottom:1px;
+ letter-spacing: 1px;
+    margin-left:3rem;
+  padding-right:4rem;
+    font-family:Bahnschrift SemiBold;
+}
+
+p{
+margin:0;
+padding:0;
+}
+.p-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: grey;
+    position: relative;
+}
+
+.p-title::after{
+    content: "";
+    position: absolute;
+    width: 74%;
+    height: .1rem;
+    background-color: grey;
+    border-radius: 8px;
+    right: 3rem;
+    left:3rem;
+    top:1.5rem;
+    transform: translateY(-50%);
+ 
+}
+.t-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: grey;
+    position: relative;
+}
+
+.t-title::after{
+    content: "";
+    position: absolute;
+    width: 60%;
+    height: .1rem;
+    background-color: grey;
+    border-radius: 8px;
+    right: 3rem;
+    left:16rem;
+    top:3.2rem;
+    transform: translateY(-50%);
+ 
+}
+.c1{ font-size: 1rem;
+    color:black;
+padding-bottom:1px;
+ letter-spacing: 1px;
+    margin-left:3rem;
+  padding-right:4rem;
+    font-family:sans-serif;
+padding-top:4px;
+}
+.q-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: grey;
+    position: relative;
+}
+
+.q-title::after{
+    content: "";
+    position: absolute;
+    width: .5+%;
+    height: 1000px;
+    background-color: grey;
+    border-radius: 8px;
+    right: 3rem;
+    left:21rem;
+    top:9rem;
+    transform: translateY(-50%);
+ 
+}
+.last-left{
+width:700px;
+height:50px;
+float:left;
+background-color:#404040;
+Margin-top:-7rem;
+}
+.last-right{
+width:300px;
+height:50px;
+float:right;
+background-color:grey;
+Margin-top:-7rem;
+
+}
+.last-text{
+color:white;
+font-size:12px;
+padding-left:2rem;
+padding-top:1rem;
+}
+table{
+width:100%;
+padding-left:3rem;
+padding-top:1rem;
+}
+td{
+padding:5px;
+font-weight:bold;
+}
+.circle{
+width:10px;
+height:10px;
+float:left;
+border-radius:50%;
+margin-right:4px;
+background-color:black;
+}
+.circle-w{
+width:8px;
+height:8px;
+float:left;
+border-radius:50%;
+margin-right:5px;
+outline:1px solid black;
+}
+.c1 i{
+padding-top:10px;
+padding-right:2rem;
+}

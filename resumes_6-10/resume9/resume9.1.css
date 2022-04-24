@@ -1,0 +1,201 @@
+body{
+        background-color:grey;
+        }
+.main-content{
+      height:1800px;
+      width:1000px;
+     
+      background-color:white;    
+}
+.profile{
+    height:350px;
+    width:950px;
+    border:1rem solid white;
+    background-color: white;
+}
+
+.profile-img-back{
+    height:325px;
+    width:210px;
+    float:left;
+    background-color:#cccccc;
+}
+img{
+    height:315px;
+    width:180px;
+    margin-left:3.5rem;
+    padding-top:2rem;
+
+}
+.bar{
+    height:28px;
+    width:400px;
+    background-color:#d9d9d9;
+}
+.name{
+    font-size:40px;
+    font-weight:bold;
+    letter-spacing:1px;
+    
+}
+.sup{
+    font-size:15px;
+    font-weight:bold;
+    letter-spacing:1px;
+    
+}
+.sub-title{
+   font-size:16px;
+    letter-spacing:1px;
+font-weight:bold;
+padding:5px;
+ }
+.para{
+  font-size:16px;
+padding-top:2rem;
+padding-bottom:2rem;
+  line-height:200%;
+font-family:system-ui;
+}
+
+.profile-right{
+     height:350px;
+     width:700px;
+     float:right;
+     background-color:white;
+border-bottom:1px solid black;
+}
+table{
+    width:100%;
+    padding-top:10px;
+    padding-left:3.5rem;
+  }
+
+.contact-title{
+text-align:left;
+font-size:15px;
+}
+.contact-info{
+text-align:left;
+font-size:15px;
+}
+.bottom-content{
+    height:1300px;
+    width:1000px;
+    border-top:2rem solid white;
+    }
+.bottom-left{
+    height:1300px;
+    width:300px;
+    background-color:#cccccc;
+    float:left;
+margin-left:2rem;
+}
+.bottom-right{
+    height:1300px;
+    width:630px;
+    background-color:white;
+    float:left;
+margin-left:2rem;
+}
+.edu-title{
+    font-size:1rem;
+    font-weight:bold;
+    padding-left:2rem;
+padding-right:2rem;
+    padding-top:5px;
+font-family:sans-serif;
+}
+.edu-sub-title{
+    font-size:16px;
+    color:grey;
+    padding-left:2rem;
+
+padding-right:2rem;
+
+font-family:system-ui;
+}
+.edu-info{
+    font-size:15px;
+    color:black;
+    padding-left:2rem;
+padding-right:2rem;
+    padding-top:-20px;
+    padding-bottom:10px;
+    letter-spacing:1px;
+    line-height:1.3rem;
+}
+.title{
+    font-size:18px;
+    color:black;
+    padding-left:2rem;
+font-weight:bold;
+font-family:sans-serif;
+}
+.skill-name{
+    font-size:15px;
+    color:black;
+   margin-left:-1.5rem;
+    padding-bottom:10px;
+padding-right:2rem;
+    padding-top:2px;
+}
+.para-2{
+font-size:17px;
+padding-top:8px;
+padding-bottom:.5rem;
+padding-left:2rem;
+padding-right:2rem;
+  line-height:1.5rem;
+}
+.edu-sub-title-1{
+    font-size:17px;
+    color:black;
+    padding-left:2rem;
+    padding-bottom:8px;
+padding-right:2rem;
+    
+line-height:1.5rem;
+}
+.year{
+    font-size:16px;
+    font-weight:bold;
+    float:right;
+    padding-right:2rem;
+margin-top:-3rem;
+}
+.p3{
+     font-size:18px;
+    padding-top:1rem;
+font-family:serif;
+padding-left:3rem;
+padding-bottom:.1rem;
+FONT-WEIGHT:BOLD;
+
+
+ }
+
+.p5{
+     font-size:15px;
+    margin-top:-.6rem;
+font-family: system-ui;
+padding-left:3rem;
+
+
+
+ }
+.upper {
+  display: grid;
+  grid-template-columns:auto auto auto ;
+  grid-gap: 0px;
+  background-color:white;
+  padding: 8px;
+}
+.upper > div {
+height:50px;
+  background-color:#ccc;
+  padding-top:20px;
+  text-align: center;
+  font-size: 18px;
+color:black;
+}
