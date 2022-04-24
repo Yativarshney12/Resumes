@@ -1,0 +1,231 @@
+
+body{
+background:white;
+}
+.main-content{
+width:1000px;
+height:1500px;
+background:#2d3655;
+}
+.upper{
+width:1000px;
+height:500px;
+float:left;
+}
+.middle{
+width:1000px;
+height:150px;
+float:left;
+}
+.lower{
+width:1000px;
+height:650px;
+float:left;
+}
+.upper-left{
+width:350px;
+height:500px;
+float:left;
+padding-left:3rem;
+}
+.upper-mid{
+width:300px;
+height:500px;
+float:left;
+}
+.upper-right{
+width:270px;
+height:500px;
+float:left;
+padding-left:2rem;
+}
+p{
+padding:0;
+margin:0;
+}
+.name{
+font-size:40px;
+font-weight:bold;
+padding-top:2rem;
+color:#5caace;
+}
+.sub-name{
+font-size:30px;
+color:white;
+}
+.up-title{
+padding-top:2rem;
+font-weight:bold;
+font-size:20px;
+color:#5caace;
+}
+.up-title-1{
+padding-top:2rem;
+font-weight:bold;
+font-size:20px;
+padding-left:1rem;
+color:#5caace;
+}
+.up-title-a{
+padding-top:1rem;
+font-weight:bold;
+font-size:20px;
+padding-left:1rem;
+color:#5caace;
+}
+.up-para{
+font-size:15px;
+color:white;
+line-height:25px;
+padding-top:2rem;
+padding-right:2rem;
+}
+.up-para-1{
+font-size:15px;
+color:white;
+line-height:25px;
+padding-top:1rem;
+padding-left:1rem;
+padding-right:2rem;
+}
+img{
+width:300px;
+height:500px;
+}
+.mid-in{
+width:250px;
+height:100px;
+float:left;
+margin-top:1.5rem;
+background:#5caace;
+}
+.mid-name{
+font-size:8rem;
+padding-left:18rem;
+font-weight:bold;
+color:#5caace;
+}
+.low-left{
+width:300px;
+height:650px;
+float:left;
+padding-left:3rem;
+}
+.low-right{
+width:600px;
+height:650px;
+float:left;
+padding-left:3rem;
+}
+.timeline{
+padding-right:3rem;
+    display: grid;
+padding-top:2rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+.timeline-1{
+padding-right:3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.tl-title{
+    letter-spacing: 1px;
+    font-size: 1.3rem;
+    color: grey;
+    text-transform: uppercase;
+}
+.tl-title-2{
+    letter-spacing: 1px;
+    font-size: 13px;
+font-weight:bold;
+color:white;
+    text-transform: uppercase;
+}
+.tl-content{
+    border-left: 2px solid #5caace;
+    padding-left: 2rem;
+    position: relative;
+    padding-bottom: 2rem;
+
+}
+
+.tl-title-2::before{
+    content: "";
+    position: absolute;
+    width: .6rem;
+    height: .6rem;
+    background-color: #5caace;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    left: -1px;
+}
+.right-tl-content{
+width:325px;
+}
+.right-tl-content-1{
+width:600px;
+}
+.para2{
+padding-top:.2rem;
+    font-size: 14px;
+color:white;
+}
+.para3{
+padding-top:.3rem;
+font-size:15px;
+line-height:20px;
+padding-right:2rem;
+color:white;
+}
+.para4{
+padding-top:.3rem;
+font-size:15px;
+line-height:20px;
+padding-right:2rem;
+color:white;
+}
+.skills-section ul{
+padding-left:0rem;
+}
+.skills-section ul li{
+padding-top:.4rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.progress-bar{
+    width: 50%;
+top:.8rem;
+    height: .4rem;
+    background-color:#404966;
+    position: relative;
+    
+}
+.progress{
+    height: 100%;
+    position: absolute;
+    background-color:white;
+    
+}
+.js-progress{
+    width: 70%;
+}
+.ps-progress{
+    width: 90%;
+}
+.j-progress{
+    width: 85%;
+}
+.c-progress{
+    width: 40%;
+}
+.n-progress{
+    width: 63%;
+}
+.skill-title{
+    color: 	white;
+    font-size: 1rem;
+    margin-top:.2rem;
+     margin-bottom:.2rem;
+}

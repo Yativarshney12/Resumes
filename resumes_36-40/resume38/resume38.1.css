@@ -1,0 +1,181 @@
+
+body{
+background:black;
+}
+.main-content{
+width:1200px;
+height:2200px;
+background:white;
+}
+.upper{
+width:1200px;
+height:300px;
+}
+.mid-1{
+width:1200px;
+height:250px;
+background:#e3e3e1;
+}
+.mid-2{
+width:1200px;
+height:350px;
+background:#e3e3e1;
+}
+.mid-2-left{
+width:300px;
+height:330px;
+float:left;
+margin-top:1rem;
+margin-left:3rem;
+background:#e3e3e1;
+}
+.mid-2-right{
+width:850px;
+height:330px;
+float:left;
+margin-top:1rem;
+background:#e3e3e1;
+}
+.name{
+font-size:5rem;
+font-weight:bold;
+padding-top:5rem;
+padding-left:3rem;
+
+font-family:Times New Roman;
+}
+.subname{
+font-size:1.8rem;
+padding-left:3rem;
+}
+p{
+padding:0;
+margin:0;
+}
+.con-title{
+font-size:15px;
+font-weight:bold;
+}
+.con-info{
+font-size:15px;
+line-height:20px;
+padding-top:5px;
+}
+.con-main{
+font-size:20px;
+font-weight:bold;
+font-family:verdana;
+}
+.mid-2-left li{
+display:flex;
+padding-top:1rem;
+}
+.expert-l{
+width:350px;
+height:200px;
+float:left;
+}
+.expert-r{
+width:400px;
+height:200px;
+float:right;
+}
+.skills-section ul{
+padding-left:.8rem;
+}
+.skills-section ul li{
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+}
+
+.progress-bar{
+    width: 90%;
+top:.8rem;
+    height: .3rem;
+    background-color:white;
+    position: relative;
+    border-radius:12px;
+}
+.progress{
+    height: 100%;
+    position: absolute;
+    background-color:grey;
+    border-radius:12px;
+}
+.js-progress{
+    width: 70%;
+}
+.ps-progress{
+    width: 90%;
+}
+.j-progress{
+    width: 85%;
+}
+.c-progress{
+    width: 40%;
+}
+.n-progress{
+    width: 63%;
+}
+.skill-title{
+    font-size: 1rem;
+    margin-top:1.2rem;
+     margin-bottom:.2rem;
+}
+.verticalLine {
+        border-left: 4px solid grey;
+        height: 150px;
+      
+        left: 50%;
+float:left;
+        margin-left: .5rem;
+        top: .5rem;
+      }
+
+
+.line-1{
+width:80px;
+height:350px;
+float:left;
+margin-top:1rem;
+}
+.verticalLine-1 {
+        border-left: 4px solid grey;
+        height: 340px;
+      
+        left: 50%;
+float:left;
+        margin-left: .5rem;
+        top: 0rem;
+      }
+
+
+.line{
+width:80px;
+height:200px;
+float:right;
+margin-right:10rem;
+margin-top:-12.9rem;
+}
+.line-name{
+font-weight:bold;
+float:left;
+margin-left:1rem;
+margin-top:.2rem;
+margin-bottom:.2rem;
+}
+.upper-1 {
+  display: grid;
+  grid-template-columns:auto auto auto ;
+  grid-gap: 0px;
+  background-color:white;
+  padding: 8px;
+}
+.upper-1 > div {
+height:50px;
+  background-color:grey;
+  padding-top:20px;
+  text-align: center;
+  font-size: 18px;
+color:white;
+}

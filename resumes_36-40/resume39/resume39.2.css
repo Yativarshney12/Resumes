@@ -1,0 +1,362 @@
+
+body{
+background:pink;
+}
+.main-content{
+width:1000px;
+height:1950px;
+background:white;                     
+}
+
+.first{
+width:1000px;
+height:300px;
+background:white;                     
+}
+
+.second{
+width:1000px;
+height:1300px;
+background:white;                     
+}
+p{
+padding:0;
+margin:0;
+}
+.photo{
+width:40px;
+height:250px;
+margin-left:3rem;                     
+}
+.name{
+color:black;
+font-size: 3.5Rem;
+margin-bottom:.1rem;
+line-height: 1.8rem;
+    margin-left:2rem;
+  margin-right:1.5rem;
+    font-family:sans-serif;
+padding-top:3rem;
+line-height:3.5rem;
+}
+.sub-name{
+color:black;
+font-size: 1.5Rem;
+margin-bottom:1.7rem;
+line-height: 1.8rem;
+    margin-left:2.5rem;
+  margin-right:1.5rem;
+    font-family:monospace;
+padding-top:.4rem;
+font-weight:bold;
+}
+.s-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: yellow;
+    position: relative;
+}
+.s-title::after{
+    content: "";
+    position: absolute;
+    width: 55%;
+    height: .2rem;
+    background-color:black;
+    border-radius: 8px;
+    right: 1rem;
+    left:2rem;
+    top:14 rem;
+    transform: translateY(-50%);
+}
+.t-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: yellow;
+    position: relative;
+}
+.t-title::after{
+    content: "";
+    position: absolute;
+    width: .6%;
+    height: 1200px;
+    background-color:grey;
+    border-radius: 8px;
+    right: 1rem;
+    left:31rem;
+    top:40rem;
+    transform: translateY(-50%);
+}
+.q-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: yellow;
+    position: relative;
+}
+.q-title::after{
+    content: "";
+    position: absolute;
+    width: 92%;
+    height: .2rem;
+    background-color:grey;
+    border-radius: 8px;
+    right: 1rem;
+    left:2.1rem;
+    top:1030px;
+    transform: translateY(-50%);
+}
+.name-div{
+width:700px;
+height:250px;
+background:white;
+margin-top:-15.6rem; 
+float:left;  
+margin-left:10rem;                  
+}
+.website{
+color:black;
+font-size: 1Rem;
+margin-bottom:.4rem;
+line-height: 1.8rem;
+ padding-left:30rem;
+  margin-right:1.5rem;
+    font-family:sans-serif;
+margin-top:-.9rem;
+}
+.contact-div{
+width:250px;
+height:150px;
+background:white;
+margin-top:-12rem; 
+float:right;   
+margin-right:3rem;                 
+}
+.detail{
+color:black;
+font-size: 1.1Rem;
+margin-left:.4rem;
+  margin-right:2rem;
+font-family: serif;
+margin-top:1rem;
+}
+.detail1{
+color:black;
+font-size: 1.1Rem;
+margin-left:.4rem;
+  margin-right:2rem;
+font-family: serif;
+margin-top:1.5rem;
+
+}
+.title3{
+color:white;
+height:2.2rem;
+width:250px;
+background:black;
+font-weight:bold;
+font-family:sans-serif;
+padding-left:7rem;
+font-size:1.5rem;
+padding-top:.6rem;
+}
+.para{
+color:black;
+line-height:1.8rem;
+font-family:serif;
+padding-left:4rem;
+font-size:1.2rem;
+padding-top:1.5rem;
+padding-right:3rem;
+}
+.title{
+color:white;
+height:2rem;
+width:180px;
+background:black;
+font-weight:bold;
+font-family:sans-serif;
+padding-left:3.6rem;
+font-size:1.2rem;
+padding-top:.7rem;
+margin-left:2.5rem;
+margin-top:3rem;
+}
+.title1{
+color:white;
+height:2rem;
+width:130px;
+background:black;
+font-weight:bold;
+font-family:sans-serif;
+padding-left:3.6rem;
+font-size:1.2rem;
+padding-top:.7rem;
+margin-left:2.5rem;
+margin-top:3rem;
+}
+.right{
+width:500px;
+height:1225px;
+background:white;
+float:right;                     
+}
+.left{
+width:500px;
+height:1000px;
+background:white;
+float:left;                     
+}
+.p1{
+color:black;
+font-size: 1Rem;
+margin-bottom:.1rem;
+line-height: 1.8rem;
+    margin-left:3rem;
+  margin-right:2rem;
+    font-family: system-ui;
+padding-top:1.5rem;
+font-weight:bold;
+}
+.p2{
+color:black;
+font-size: 1Rem;
+margin-bottom:.1rem;
+line-height: 1.3rem;
+    margin-left:3rem;
+  margin-right:2rem;
+    font-family: system-ui;
+padding-top:.2rem;
+}
+.p3{
+color:black;
+font-size: 1Rem;
+margin-bottom:.1rem;
+line-height: 1.5rem;
+    margin-left:3rem;
+  margin-right:2rem;
+    font-family: system-ui;
+padding-top:.4rem;
+}
+.skills-section ul{
+padding-left:.8rem;
+font-family:sans-serif;
+}
+.skills-section ul li{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+}
+
+.progress-bar{
+    width: 150%;
+top:1.7rem;
+    height: .3rem;
+    background-color:#eee;
+    position: relative;
+    border-radius:12px;
+}
+.progress{
+    height: 100%;
+    position: absolute;
+    background-color:grey;
+    border-radius:12px;
+}
+.js-progress{
+    width: 70%;
+}
+.ps-progress{
+    width: 90%;
+}
+.j-progress{
+    width: 85%;
+}
+.c-progress{
+    width: 40%;
+}
+.n-progress{
+    width: 63%;
+}
+.skill-title{
+    font-size: 1rem;
+    margin-top:1.5rem;
+     margin-bottom:.2rem;
+PADDING-LEFT:3REM;
+}
+table,  td {
+padding-top:2rem;
+padding-left:2.3rem;
+}
+.circle{
+	border-radius: 50%;
+
+	font-size: 1.1em;
+	}
+.fa-facebook{
+	background: black;
+	color: white;
+  padding: 0.05em 0.3em;
+	}
+.fa-twitter{
+	background:black;
+	color: white;
+  padding: 0.05em 0.07em;
+	}
+.fa-pinterest{
+	color: black;
+	}
+.fa-linkedln{
+	background:black;
+	color: white;
+  padding: 0.05em 0.07em;
+	}
+.ui-widgets {
+    position: relative;
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 9rem;
+    top:-50px;
+    border: 6px solid white;
+    box-shadow: inset 0 0 7px white;
+    border-left-color: black;
+    border-top-color:black ;
+    border-right-color: black;
+    border-bottom-color: white ;
+    text-align: center;
+    box-sizing: border-box;
+}
+ 
+/* Apply css properties to the second
+    child of ui-widgets class */
+.ui-widgets:nth-child(2) {
+    border-top-color:#d5de21 ;
+    border-right-color: white;
+    border-left-color: #d5de21;
+    border-bottom-color: white;
+} 
+.ui-widgets .ui-values {
+    top: 20px;
+    position: absolute;
+    left: 0rem;
+    right: 0;
+    font-weight: 20px;
+    font-size: 2.0rem;
+}
+  
+/*  Apply css properties to ui-widgets 
+class and ui-labels class */
+.ui-widgets .ui-labels {
+    left: 0;
+    text-shadow: 0 0 4px white;
+    color:black;
+    position: absolute;
+    width: 100%;
+padding-top:20px;
+    font-size: 16px;
+}
+.ui-labels-1 {
+    left: 40;
+    text-shadow: 0 0 4px white;
+    color:black;
+  margin-top:-4.2rem;
+    width: 100%;
+    font-size: 16px;
+}

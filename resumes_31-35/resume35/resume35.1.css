@@ -1,0 +1,289 @@
+
+body{
+background:pink;
+}
+.main-content{
+width:1000px;
+height:2000px;
+background:white;                     
+}
+
+.first{
+width:1000px;
+height:250px;
+background:white;                     
+}
+.second{
+width:1000px;
+height:400px;
+background:white;                     
+}
+.third{
+width:1000px;
+height:1150px;
+background:white;                     
+}
+.first-left{
+width:500px;
+height:250px;
+background:white;  
+float:left;                   
+}
+.first-right{
+width:400px;
+height:250px;
+background:white; 
+float:right ;                   
+}
+.second-left{
+width:300px;
+height:400px;
+background:#167eb3;   
+float:left;                   
+}
+.second-right{
+width:670px;
+height:400px;
+background-size:cover;
+background-image:url('avatar-6.jpg');
+float:right;                  
+}
+.third-upper{
+width:1000px;
+height:200px;
+background:white;                     
+}
+.third-left{
+width:500px;
+height:600px;
+background:white;  
+float:left;                   
+}
+.third-right{
+width:500px;
+height:600px;
+background:white;  
+float:left;                   
+}
+p{
+padding:0;
+margin:0;
+}
+.para{
+color:black;
+font-size: 1.2Rem;
+margin-bottom:.1rem;
+line-height: 1.8rem;
+    margin-left:2rem;
+  margin-right:1.5rem;
+    font-family:sans-serif;
+padding-top:2rem;
+
+}
+.para1{
+color:black;
+font-size: 1.1Rem;
+margin-bottom:.1rem;
+line-height: 1.8rem;
+    margin-left:2rem;
+  margin-right:2rem;
+    font-family:serif;
+padding-top:2rem;
+line-height:1.5rem;
+
+}
+
+.p1{
+color:black;
+font-size: 1Rem;
+margin-bottom:.1rem;
+line-height: 1.8rem;
+    margin-left:2rem;
+  margin-right:2rem;
+    font-family: system-ui;
+padding-top:1.5rem;
+font-weight:bold;
+}
+.name-div{
+width:500px;
+height:60px;
+background:#d6d8d9;  
+float:left; 
+margin-top:4rem;                  
+}
+
+.p2{
+color:black;
+font-size: 1Rem;
+margin-bottom:.1rem;
+line-height: 1.8rem;
+    margin-left:2rem;
+  margin-right:2rem;
+    font-family: system-ui;
+padding-top:.2rem;
+font-weight:bold;
+}
+.p3{
+color:black;
+font-size: 1Rem;
+margin-bottom:.1rem;
+line-height: 1.8rem;
+    margin-left:2rem;
+  margin-right:2rem;
+    font-family: system-ui;
+padding-top:1rem;
+
+}
+.name{
+color:black;
+font-size: 3.1Rem;
+
+line-height:.4rem;
+    margin-left:5rem;
+  margin-right:2rem;
+font-family: cursive;
+margin-top:-2px;
+
+}
+.name-sub{
+color:black;
+font-size: 1.5Rem;
+margin-bottom:4rem;
+
+    margin-left:14rem;
+  margin-right:2rem;
+font-family: sans-serif;
+margin-top:2rem;
+
+}
+.s-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: yellow;
+    position: relative;
+}
+.s-title::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: .2rem;
+    background-color: #CCC;
+    border-radius: 8px;
+    right: 1rem;
+    left:0rem;
+    top:3rem;
+
+    transform: translateY(-50%);
+}
+
+.detail{
+color:black;
+font-size: 1Rem;
+
+
+    margin-left:5rem;
+  margin-right:2rem;
+font-family: monospace;
+margin-top:6rem;
+
+}
+.detail1{
+color:black;
+font-size: 1Rem;
+
+
+    margin-left:5rem;
+  margin-right:2rem;
+font-family: monospace;
+margin-top:.8rem;
+
+}
+.p5{
+color:white;
+font-size: 2Rem;
+margin-bottom:.1rem;
+line-height: 1.8rem;
+    margin-left:8rem;
+  margin-right:2rem;
+    font-family: sans-serif;
+padding-top:3rem;
+
+}
+.p6{
+color:white;
+font-size: 2Rem;
+margin-bottom:.1rem;
+line-height: 1.8rem;
+    margin-left:8rem;
+  margin-right:2rem;
+    font-family: sans-serif;
+padding-top:.5rem;
+
+}
+.p7{
+color:white;
+font-size: 2Rem;
+margin-bottom:.1rem;
+line-height: 1.8rem;
+    margin-left:8.3rem;
+  margin-right:2rem;
+    font-family: sans-serif;
+padding-top:.5rem;
+
+}
+.skills-section1 ul{
+padding-left:3rem;
+padding-bottom:1rem;
+}
+.skills-section1 ul li{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.skill-title1{
+    font-size: 1rem;
+    line-height:2rem;
+     margin-bottom:.2rem;
+}
+.slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 2px; 
+  outline: none;
+margin-top:1rem;
+background:grey;
+  border-radius: 8px;
+}
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  background: #0000CD;
+  cursor: pointer;
+  border-radius: 50%;
+}
+.slid-div{
+
+padding-right:2rem;
+}
+.circle{
+width:100px;
+height:100px;
+margin-top:1rem;
+margin-left:1rem;
+
+border:1px solid black;
+
+border-radius:50%;
+}
+.circle-title{
+padding-top:2.4rem;
+font-size:23px;
+font-weight:bold;
+text-align:center;
+}
+.second-right i{
+font-size:25px;
+margin-top:13rem;
+margin-left:1rem;
+}

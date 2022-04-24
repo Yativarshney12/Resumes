@@ -1,0 +1,293 @@
+
+body{
+background:black;
+}
+.main-content{
+width:1000px;
+height:1550px;
+background:white;
+}
+.side-nav{
+width:50px;
+height:1300px;
+float:left;
+}
+.nav-top{
+width:50px;
+height:400px;
+float:left;
+background:black;
+}
+.nav-bottom{
+width:50px;
+height:1150px;
+float:left;
+background:#e23127;
+}
+.content{
+width:918px;
+height:1236px;
+float:left;
+margin-top:4rem;
+margin-left:2rem;
+}
+.pro{
+width:918px;
+height:400px;
+float:left;
+}
+.image{
+width:250px;
+height:350px;
+float:left;
+background-size:cover;
+background-image:url('avatar-5.jpg');
+}
+p{
+padding:0;
+margin:0;
+}
+.low-nav{
+width:918px;
+height:1036px;
+float:left;
+}
+.info{
+width:620px;
+height:400px;
+float:left;
+margin-left:3rem;
+}
+.name-1{
+font-size:30px;
+font-weight:bold;
+color:red;
+}
+.subname{
+font-family:verdana;
+font-size:15px;
+}
+.p-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: grey;
+    position: relative;
+}
+
+.p-title::after{
+    content: "";
+    position: absolute;
+    width: 59%;
+    height: .2rem;
+    background-color: grey;
+    right: 3rem;
+    left:15.5rem;
+    top:-.5rem;
+    transform: translateY(-50%);
+}
+.q-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: grey;
+    position: relative;
+}
+
+.q-title::after{
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: .2rem;
+    background-color: red;
+    right: 3rem;
+    left:8.2rem;
+    top:-.5rem;
+    transform: translateY(-50%);
+}
+.r-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: grey;
+    position: relative;
+}
+
+.r-title::after{
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: .2rem;
+    background-color: red;
+    right: 3rem;
+    left:8rem;
+    top:-.5rem;
+    transform: translateY(-50%);
+}
+.x-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: grey;
+    position: relative;
+}
+
+.x-title::after{
+    content: "";
+    position: absolute;
+    width: 84%;
+    height: .2rem;
+    background-color: red;
+    right: 3rem;
+    left:8.4rem;
+    top:-.5rem;
+    transform: translateY(-50%);
+}
+.title{
+font-size:18px;
+font-weight:bold;
+padding-top:1.3em;
+}
+.title-1{
+font-size:20px;
+font-weight:bold;
+padding-top:1rem;
+}
+.para{
+font-size:15px;
+padding-right:3rem;
+padding-top:1rem;
+line-height:20px;
+}
+
+.p10{
+font-size:15px;
+padding-left:2rem;
+font-family:SANS-SERIF;
+line-height:1.5rem;
+padding-right:3rem;
+padding-left:3rem;
+}
+.timeline{
+padding-right:3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+padding-top:2rem;
+}
+.tl-title-2{
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: black;
+    font-weight:bold;  
+}
+.tl-content{
+    position: relative;
+}
+.right-tl-content{
+width:600px;
+}
+.para2{
+    padding-top:.1rem;
+    color: red;
+    font-size: 14px;
+padding-top:.2rem;
+padding-left:2rem;
+}
+.para-4{
+    line-height: 1.6rem;
+    color: black;
+    font-size: 1rem;
+ padding-left:1rem;
+}
+.square{
+width:13px;
+height:13px;
+float:left;
+margin-right:1rem;
+background:red;
+}
+.timeline-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+padding-top:2rem;
+}
+
+
+.tl-title-3{
+    letter-spacing: 1px;
+    font-size: 20px;
+    color: black;
+    font-weight:bold;
+}
+.tl-title-4{
+    letter-spacing: 1px;
+    font-size: 15px;
+    color: red;
+padding-top:.4rem;
+   padding-left:2rem;
+}
+
+.tl-content-1{
+    
+    position: relative;
+}
+
+.right-tl-content-1{
+width:900px;
+}
+
+.para-5{
+    line-height: 1.6rem;
+    color: black;
+    font-size: 1rem;
+padding-left:2rem;
+ padding-top:1rem;
+}
+.ver-name{
+color:white;
+margin-top:600px;
+writing-mode:vertical-rl;
+-webkit-transform:rotate(-180deg);
+font-size:35px;
+letter-spacing:2px;
+margin-left:5px;
+}
+.ver-tit-1{
+color:white;
+margin-top:300px;
+writing-mode:vertical-rl;
+-webkit-transform:rotate(-180deg);
+font-size:25px;
+letter-spacing:2px;
+margin-left:8px;
+}
+.ver-tit-2{
+color:white;
+margin-top:-150px;
+writing-mode:vertical-rl;
+-webkit-transform:rotate(-180deg);
+font-size:25px;
+letter-spacing:2px;
+margin-left:8px;
+}
+.ver-tit-3{
+color:white;
+margin-top:-175px;
+writing-mode:vertical-rl;
+-webkit-transform:rotate(-180deg);
+font-size:25px;
+letter-spacing:2px;
+margin-left:8px;
+}
+.upper-1 {
+  display: grid;
+  grid-template-columns:auto auto auto ;
+  grid-gap: 0px;
+  background-color:black;
+  padding: 0px;
+}
+.upper-1 > div {
+height:50px;
+  background-color:white;
+  padding-top:20px;
+  text-align: center;
+  font-size: 20px;
+color:black;
+padding-right:1rem;
+}

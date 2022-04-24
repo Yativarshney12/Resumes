@@ -1,0 +1,309 @@
+ body{  
+         background-color:pink;
+        }
+.main-content{
+      height:1500px;
+      width:1000px;
+      background-color:white;    
+}
+
+.left-profile{
+      height:1500px;
+      width:350px;
+      background-color:#1e2035;
+      float:left;   
+}
+
+.right-profile{
+      height:1500px;
+      width:650px;
+      background-color:#282a3f; 
+      float:left;   
+}
+.name-circle{
+width:100px;
+height:100px;
+margin-top:2rem;
+margin-left:7rem;
+border-radius:50%;
+border:4px solid grey;
+}
+.name-title{
+font-size:30px;
+color:white;
+font-weight:bold;
+text-align:center;
+
+}
+
+.para1{
+font-size:24px;
+padding-left:3rem;
+font-family: sans-serif;
+margin-top:3rem;
+line-height:1.5rem;
+margin-bottom:1.5rem;
+padding-right:2rem;
+    color:white;
+
+}
+.p1{
+    font-size: .9Rem;
+    color:#DCDCDC	;
+margin-bottom:1rem;
+ letter-spacing: 1px;
+    margin-left:3rem;
+  padding-right:4rem;
+    font-family:Helvetica;
+margin-top:0rem;
+}
+.p2{
+    font-size: 1rem;
+    color:white;
+margin-bottom:.4rem;
+ letter-spacing: 1px;
+    margin-left:3rem;
+  padding-right:4rem;
+    font-family:Helvetica;
+margin-top:0rem;
+}
+p{
+margn:0;
+padding:0;
+}
+.p-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: yellow;
+    position: relative;
+}
+.p-title::after{
+    content: "";
+    position: absolute;
+    width: .5%;
+    height: 7rem;
+    background-color: grey;
+    border-radius: 8px;
+    right: 3rem;
+    left:21rem;
+    top:2rem;
+    transform: translateY(-50%);
+}
+.p3{
+    font-size: .8Rem;
+    color:	#3c4365;
+margin-bottom:.4rem;
+ letter-spacing: 1px;
+    margin-left:3rem;
+  padding-right:4rem;
+    font-family:Helvetica;
+margin-top:0rem;
+}
+.p10{
+    font-size: .8Rem;
+    color:		#DCDCDC;
+margin-bottom:.4rem;
+ letter-spacing: 1px;
+    margin-left:3rem;
+  padding-right:4rem;
+    font-family:Helvetica;
+margin-top:0rem;
+}
+.p4{
+    font-size: .9rem;
+    color:white;
+margin-bottom:0rem;
+ letter-spacing: 1px;
+    margin-left:3rem;
+  padding-right:3rem;
+    font-family:sans-serif;
+margin-top:.8rem;
+line-height:1.5rem;
+}
+.right-profile ul{
+color:white;
+    margin-left:3rem;
+line-height:1.4rem;
+margin-bottom:3rem;
+}
+.skills-section ul{
+padding-left:.8rem;
+}
+.skills-section ul li{
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+}
+
+.progress-bar{
+    width: 50%;
+top:.8rem;
+    height: .3rem;
+    background-color:grey;
+    position: relative;
+    border-radius:12px;
+}
+.progress{
+    height: 100%;
+    position: absolute;
+    background-color:#444f77;
+    border-radius:12px;
+}
+.js-progress{
+    width: 70%;
+}
+.ps-progress{
+    width: 90%;
+}
+.j-progress{
+    width: 85%;
+}
+.c-progress{
+    width: 40%;
+}
+.n-progress{
+    width: 63%;
+}
+.skill-title{
+    color: 	#DCDCDC;
+    font-size: 1rem;
+    margin-top:.2rem;
+     margin-bottom:.2rem;
+
+}
+.expert-l{
+width:300px;
+height:200px;
+float:left;
+}
+.expert-r{
+width:300px;
+height:200px;
+float:right;
+}
+
+.name{
+    font-size: 3Rem;
+    color:#3c4365	;
+margin-bottom:.3rem;
+ letter-spacing: 1px;
+    margin-left:4rem;
+  padding-right:4rem;
+    font-family: "Lucida Console", Courier, monospace;
+margin-top:1.5rem;
+}
+.name2{
+    font-size:3.5Rem;
+    color:white	;
+margin-bottom:.4rem;
+ letter-spacing: 1px;
+    margin-left:4rem;
+  margin-right:4rem;
+    font-family: "Lucida Console", Courier, monospace;
+margin-top:.1rem;
+}
+.name3{
+    font-size:1Rem;
+    color:white	;
+margin-bottom:.4rem;
+ letter-spacing: 1px;
+    margin-left:4rem;
+  margin-right:4rem;
+    font-family:Lucida Console;
+margin-top:.1rem;
+}
+.para6{
+    font-size:1.5Rem;
+    color:white	;
+margin-bottom:.4rem;
+ letter-spacing: 1px;
+    margin-left:4rem;
+  margin-right:4rem;
+    font-family:Lucida Console;
+margin-top:2.5rem;
+}
+.p8{
+    font-size:1Rem;
+    color:	#DCDCDC	;
+margin-bottom:.4rem;
+ letter-spacing: 1px;
+    margin-left:4rem;
+  margin-right:4rem;
+    font-family:Lucida Console;
+margin-top:2rem;
+}
+.para7{
+    font-size:1Rem;
+    color:white	;
+margin-bottom:.4rem;
+ letter-spacing: 1px;
+    margin-left:4rem;
+  margin-right:3rem;
+    font-family:sans-serif;
+margin-top:2.5rem;
+line-height:2rem;
+}
+.para8{
+    font-size:1.1Rem;
+    color:white	;
+margin-bottom:.4rem;
+ letter-spacing: 1px;
+    margin-left:4rem;
+  margin-right:2rem;
+    font-family:sans-serif;
+margin-top:2.5rem;
+line-height:1.5rem;
+}
+.p9{
+    font-size: 1.2Rem;
+    color:#DCDCDC	;
+margin-bottom:.4rem;
+ letter-spacing: 1px;
+    margin-left:3rem;
+  padding-right:4rem;
+    font-family:Helvetica;
+margin-top:2rem;
+}
+.skills-section1 ul{
+padding-left:3rem;
+}
+.skills-section1 ul li{
+    display: grid;
+    grid-template-columns: repeat(2, 4fr);
+}
+
+.progress-bar1{
+    width: 50%;
+top:.8rem;
+    height: .3rem;
+    background-color:grey;
+    position: relative;
+    border-radius:12px;
+}
+.progress1{
+    height: 100%;
+    position: absolute;
+    background-color:#444f77;
+    border-radius:12px;
+}
+.js1-progress{
+    width: 70%;
+}
+.ps1-progress{
+    width: 90%;
+}
+.j1-progress{
+    width: 85%;
+}
+.c1-progress{
+    width: 40%;
+}
+.n1-progress{
+    width: 63%;
+}
+.skill-title1{
+    color: 	#DCDCDC;
+    font-size: 1rem;
+    margin-top:1rem;
+     margin-bottom:.2rem;
+
+}
