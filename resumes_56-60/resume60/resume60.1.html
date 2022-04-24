@@ -1,0 +1,629 @@
+<html>
+    <title>Resume 60.1</title>
+<head>
+    <meta charset="UTF-8">
+   
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="stylesheet" href="resume8.1.css" >
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body{
+background:pink;
+}
+.main-content{
+height:1510px;
+width:1000px;
+background:white;
+}
+.profile{
+float:left;
+height:200px;
+width:1000px;
+
+}
+.profile-pic{
+float:left;
+height:200px;
+width:200px;
+background:url('avatar.jpg');
+background-size:cover;
+}
+p{
+padding:0;
+margin:0;
+}
+.name{
+font-size:55px;
+float:left;
+padding-top:3rem;
+padding-left:3rem;
+}
+.sub-name{
+font-size:20px;
+color:grey;
+padding-top:7rem;
+padding-left:16rem;
+}
+.s-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: yellow;
+    position: relative;
+}
+.s-title::after{
+    content: "";
+    position: absolute;
+    width: 65%;
+    height: .2rem;
+    background-color:black;
+    border-radius: 8px;
+    right: 1rem;
+    left:15rem;
+    top:1rem;
+    transform: translateY(-50%);
+}
+.t-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: yellow;
+    position: relative;
+}
+.t-title::after{
+    content: "";
+    position: absolute;
+    width: 65%;
+    height: .2rem;
+    background-color:white;
+    border-radius: 8px;
+    right: 1rem;
+    left:3rem;
+    top:18rem;
+    transform: translateY(-50%);
+}
+.u-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: yellow;
+    position: relative;
+}
+.u-title::after{
+    content: "";
+    position: absolute;
+    width: 65%;
+    height: .2rem;
+    background-color:white;
+    border-radius: 8px;
+    right: 1rem;
+    left:3rem;
+    top:0rem;
+    transform: translateY(-50%);
+}
+.v-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: yellow;
+    position: relative;
+}
+.v-title::after{
+    content: "";
+    position: absolute;
+    width: 65%;
+    height: .2rem;
+    background-color:white;
+    border-radius: 8px;
+    right: 1rem;
+    left:3rem;
+    top:0rem;
+margin-bottom:1rem;
+    transform: translateY(-50%);
+}
+.w-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: yellow;
+    position: relative;
+}
+.w-title::after{
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: .2rem;
+    background-color:black;
+    border-radius: 8px;
+    right: 1rem;
+    left:3rem;
+    top:17rem;
+margin-bottom:1rem;
+    transform: translateY(-50%);
+}
+.x-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: yellow;
+    position: relative;
+}
+.x-title::after{
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: .2rem;
+    background-color:black;
+    border-radius: 8px;
+    right: 1rem;
+    left:3rem;
+    top:0rem;
+margin-bottom:1rem;
+    transform: translateY(-50%);
+}
+
+
+
+.circle{
+width:40px;
+height:40px;
+border-radius:50%;
+background-color:yellow;
+}
+.c1{ padding-right: .8rem;
+padding-left: 3rem;
+margin-top: -2rem;
+    font-size: 1rem;
+float:left;
+}
+.low{
+height:1300px;
+width:1000px;
+}
+.low-left{
+height:1300px;
+width:300px;
+float:left;
+background:grey;
+}
+.low-right{
+height:1300px;
+width:700px;
+float:left;
+
+}
+.title{
+font-size:25px;
+color:white;
+height:40px;
+font-weight:bold;
+background:grey;
+padding-left:3rem;
+padding-top:.4rem;
+}
+.title-2{
+font-size:25px;
+color:black;
+height:40px;
+font-weight:bold;
+padding-left:3rem;
+padding-top:.4rem;
+}
+
+.edu{
+height:300px;
+width:300px;
+float:left;
+background:yellow;
+}
+.about{
+height:300px;
+width:700px;
+float:left;
+background:#ccc;
+}
+.about-para{
+font-size:18px;
+padding-top:2rem;
+padding-left:1rem;
+padding-right:1rem;
+line-height:25px;
+}
+.skills-section ul{                         
+    padding-bottom:1rem;
+padding-top:20rem;
+
+}
+.skills-section ul li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   padding-bottom: 1rem;
+}
+.skills-section-1 ul{                         
+    padding-bottom:1rem;
+padding-top:2rem;
+
+}
+.skills-section-1 ul li{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   padding-bottom: 1rem;
+}
+
+.progress-bar{
+    width:90%;
+    height: .4rem;
+    background-color:grey;
+    position: relative;
+  border:1px solid black;
+border-radius:12px;
+}
+.progress{
+    height: 100%;
+    position: absolute;
+    left: 0;
+    background-color: yellow;
+    border-radius:12px;
+}
+.js-progress{
+    width: 70%;
+}
+.ps-progress{
+    width: 90%;
+}
+.j-progress{
+    width: 85%;
+}
+.skill-title{
+    color: white;
+   font-size: 18px;
+}
+.ref{
+padding-left:3rem;
+color:white;
+}
+.timeline{
+padding-right:3rem;
+padding-left:2rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.tl-title{
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+    color: grey;
+    text-transform: uppercase;
+}
+.tl-title-2{
+    letter-spacing: 1px;
+    font-size: 16px;
+    color: black;
+font-weight:bold;
+    text-transform: uppercase;
+}
+.tl-content{
+    border-left: 2px solid #ccc;
+    padding-left: 2rem;
+    position: relative;
+    padding-bottom: 2rem;
+
+}
+
+.tl-title-2::before{
+    content: "";
+    position: absolute;
+    width: .8rem;
+    height: .8rem;
+    background-color: yellow;
+    border-radius: 50%;
+    transform: translateX(-50%);
+    left: 0;
+}
+.para2{
+    line-height: 1.6rem;
+    color: black;
+font-weight:bold;
+    font-size: 16px;
+}
+.right-tl-content{
+width:500px;
+}
+.para{
+    line-height: 1.5rem;
+    color: black;
+    font-size: 15px;
+margin-top:10px;
+font-family:system-ui;
+
+}
+.para3{
+font-size:16px;
+padding-top:2px;
+margin-left:3rem;
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+<div class="main-content">
+<div class="profile">
+<div class="profile-pic"></div>
+<div class="profile-info">
+<p class="name">Matilda <b>Martines</b></p>
+<p class="sub-name">UI & UX DESIGNER</b></p>
+<div class="s-title"></div>
+<table style="padding-top:2rem;padding-left:2rem">
+<tr>
+<td width="45%"> <div class="circle"><i class="fa fa-phone" style="padding-top:.8rem;padding-left:.8rem"></i></div>
+                             <p class="c1" >  07661892982</p></td>
+
+<td width="45%"> <div class="circle"><i class="fa fa-fax" style="padding-top:.8rem;padding-left:.8rem"></i></div>
+                           <p class="c1" >loremipsum@gmail.com</p></td>
+
+<td><div class="circle"><i class="fa fa-globe" style="padding-top:.8rem;padding-left:.8rem"></i></div>
+                            <p class="c1" >   www.loremipsum.com</p></td>
+</tr>
+</table>
+
+
+</div>
+<div class="low">
+<div class="low-left">
+<p class="title">My Education</p>
+<div class="edu">
+<section class="education sect">
+                    <br><br>
+
+                    <div class="timeline">
+                       
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <p class="tl-title-2">2016<br>Degree of university</p>
+
+                                <p class="para">
+                                   University Name 
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <p class="tl-title-2">2016<br>Degree of university</p>
+
+                                <p class="para">
+                                    University Name 
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+</section>
+
+
+
+
+</div>
+<p class="title">Languages</p>
+<div class="t-title"></div>
+<div class="skills-section">
+                    <ul>
+                        <li>
+                            <p class="skill-title">Javascript</p>
+                            <div class="progress-bar">
+                                <div class="progress js-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">Photoshop</p>
+                            <div class="progress-bar">
+                                <div class="progress ps-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">Java</p>
+                            <div class="progress-bar">
+                                <div class="progress j-progress"></div>
+                            </div>
+                        </li>
+
+                        
+                    </ul>
+                </div> 
+<p class="title">Skills</p>
+<div class="u-title"></div>
+<div class="skills-section-1">
+                    <ul>
+                        <li>
+                            <p class="skill-title">Javascript</p>
+                            <div class="progress-bar">
+                                <div class="progress js-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">Photoshop</p>
+                            <div class="progress-bar">
+                                <div class="progress ps-progress"></div>
+                            </div>
+                        </li>
+                        <li>
+                            <p class="skill-title">Java</p>
+                            <div class="progress-bar">
+                                <div class="progress j-progress"></div>
+                            </div>
+                        </li>
+
+                        
+                    </ul>
+                </div> 
+<p class="title">My References</p>
+<div class="v-title"></div>
+<br><bR>
+<p class="ref">Reference Name</p>
+<p class="ref">Position</p>
+<p class="ref">Phone :- +383883939</p>
+<p class="ref">Email :- youremail@gmail.com</p>
+<br><br>
+<p class="ref">Reference Name</p>
+<p class="ref">Position</p>
+<p class="ref">Phone :- +383883939</p>
+<p class="ref">Email :- youremail@gmail.com</p>
+<br>
+<p class="title">Certificates</p>
+<div class="v-title"></div>
+<br>
+<p class="ref">Certificate 01</p>
+<p class="ref">Date</p>
+
+<br>
+<p class="ref">Certificate 01</p>
+<p class="ref">Date</p>
+
+
+
+</div>
+<div class="low-right">
+<p class="title">Profile Info</p>
+<div class="about">
+<p class="about-para">A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.A paragraph is a series of related sentences developing a central idea, called the topic. Try to think about paragraphs in terms of thematic unity: a paragraph is a sentence or a group of sentences that supports one central, unified idea. Paragraphs add one idea at a time to your broader argument.</p>
+
+
+</div>
+<br>
+<p class="title-2">AWARDS</p>
+<div class="w-title"></div>
+<table width="100%" style="padding-top:4rem;padding-left:3rem">
+<tr>
+<td><p class="profile-para">No 1 winning Award<br>International Web Design</p></td>
+<td><p class="profile-para">No 1 winning Award<br>International Web Design</p></td>
+</tr>
+</table><br>
+<p class="title-2">WORK EXPERIENCE</p>
+<div class="x-title"></div>
+<br><br>
+<section class="education sect">
+                    
+
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            
+                            <p class="para2">2006 - 2001</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <p class="tl-title-2">Bachelor Degree In Design</p>
+<p class="para3">University of New York</p>
+                                <p class="para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cupiditate vitae 
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            
+                            <p class="para2">2011 - 2013</p>
+                        </div>
+<div class="right-tl-content">
+                            <div class="tl-content">
+                                <p class="tl-title-2">Master Degree In Design</p>
+<p class="para3">University of New York</p>
+                                <p class="para">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias cupiditate vitae 
+                                  
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+</section>
+<br><br>
+<p class="title-2">PROJECT</p>
+<div class="x-title"></div>
+<section class="education sect">
+                    <br><br>
+
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            
+                            <p class="para2">Project Name</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <p class="tl-title-2">Link</p>
+
+                                <p class="para">
+                                    Description 
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="timeline">
+                        <div class="left-tl-content">
+                            
+                            <p class="para2">Project Name</p>
+                        </div>
+                        <div class="right-tl-content">
+                            <div class="tl-content">
+                                <p class="tl-title-2">Link</p>
+
+                                <p class="para">
+                                    Description 
+                                    
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+</section>
+
+
+
+
+
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+</body>
+</html>

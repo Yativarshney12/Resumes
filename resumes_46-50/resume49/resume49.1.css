@@ -1,0 +1,242 @@
+
+
+  body{  
+         background-color:grey;
+        }
+.main-content{
+      height:2000px;
+      width:1000px;
+      background-color:white;    
+}
+.upper{
+height:300px;
+      width:1000px;
+      background:#e3e3e1;
+}
+.lower{
+height:1300px;
+      width:1000px;
+     background-image:linear-gradient(to bottom ,#e3e3e1 4% , white 3% ); 
+}
+.l-left{
+height:1650px;
+float:left;
+border-left:2px solid black;
+border-bottom:2px solid black;
+border-right:2px solid grey;
+margin-left:3rem;
+      width:300px;
+      
+}
+.l-right{
+height:1300px;
+float:left;
+margin-left:2rem;
+      width:600px;
+      
+}
+p{
+padding:0;
+margin:0;
+}
+.upper-contact{
+      height:180px;
+      width:300px;
+      background-color:#e3e3e1;   
+float:right;
+margin-top:-6rem;
+}
+.name{
+     font-size:4rem;
+font-weight:bold;
+    padding-top:3rem;
+    letter-spacing:1px;  
+font-family: sans-serif;
+padding-left:3rem;
+  padding-right:1rem;
+
+ }
+
+.SUB-name{
+     font-size:1.5rem;
+font-weight:bold;
+    padding-top:.6rem;
+    letter-spacing:1px;  
+  font-family: "Lucida Console", Courier, monospace;
+PADDING-left:3rem;
+  padding-right:1rem;
+COLOR:GREY;
+ }
+.p1{
+     font-size:1rem;
+    padding-top:1rem;
+font-family: system-ui;
+ margin-left:1rem;
+  padding-right:2rem;
+padding-bottom:.1rem;
+
+ }
+
+.dot {
+  height:32px;
+  width: 32px;
+  background-color:white;
+  border-radius: 50%;
+  display: inline-block;
+  border:2px solid black;
+margin-top:-2rem;
+margin-left:13.5rem;
+}
+.title{
+height:35px;
+color:white;
+padding-left:1.8rem;
+padding-top:.7rem;
+font-size:25px;
+font-weight:bold;
+background:#565654;
+font-family:sans-serif;
+
+}
+.title-3{
+height:35px;
+padding-top:.5rem;
+font-size:25px;
+font-weight:bold;
+
+font-family:sans-serif;
+padding-right:5rem;
+padding-left:3rem;
+}
+
+.title-2{
+height:35px;
+padding-top:.5rem;
+font-size:25px;
+font-weight:bold;
+background:#e3e3e1;
+font-family:sans-serif;
+padding-right:5rem;
+padding-left:3rem;
+}
+ .u-title{
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: grey;
+    position: relative;
+}
+
+.u-title::after{
+    content: "";
+    position: absolute;
+    width: 85%;
+    height: .2rem;
+    background-color: grey;
+    border-radius: 8px;
+    right: 3rem;
+    left:3rem;
+    top:3rem;
+    transform: translateY(-50%);
+ 
+}
+.para{
+     font-size:1.1rem;
+margin-top:2rem;
+  line-height:2rem;
+  font-family:SERIF;
+ margin-left:3rem;
+  padding-right:3rem;
+padding-bottom:2rem;
+
+}
+.edu-tit-4{
+line-height:20px;
+font-size:1.2rem;
+padding-bottom:.8rem;
+PADDING-LEFT:3rem;
+font-family:sans-serif;
+
+}
+.edu-tit-5{
+padding-top:1.5rem;
+font-size:1.5rem;
+font-weight:bold;
+padding-bottom:.6rem;
+PADDING-LEFT:3rem;
+font-family:sErif;
+}
+.para2{
+     font-size:1rem;
+margin-top:.4rem;
+  line-height:1rem;
+  font-family:system-ui;
+ margin-left:3rem;
+  padding-right:3rem;
+padding-bottom:.2rem;
+
+}
+.l-right  li{
+padding-top:.4rem;
+margin-left:3rem;
+
+}
+.ui-widgets-1 {
+    position: relative;
+    display: inline-block;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 9rem;
+    margin-left:5rem;
+    top:50px;
+    border: 6px solid white;
+    box-shadow: inset 0 0 7px white;
+    border-left-color: grey;
+    border-top-color:grey ;
+    border-right-color: grey;
+    border-bottom-color: white ;
+    text-align: center;
+    box-sizing: border-box;
+}
+.ui-widgets-1 .ui-labels {
+    left: 0;
+    text-shadow: 0 0 4px white;
+    color:black;
+    position: absolute;
+    width: 100%;
+padding-top:20px;
+    font-size: 16px;
+}
+.edu-tit{
+padding-top:2.5rem;
+font-size:18px;
+padding-left:3rem;
+font-weight:bold;
+padding-bottom:.6rem;
+font-family:system-ui;
+}
+.edu-tit1{
+padding-top:.5rem;
+font-size:18px;
+padding-left:3rem;
+
+font-weight:bold;
+padding-bottom:.6rem;
+font-family:system-ui;
+}
+
+.edu-tit-2{
+line-height:20px;
+font-size:15px;
+padding-left:3rem;
+
+padding-bottom:2rem;
+font-family:sans-serif;
+}
+.edu-tit-3{
+line-height:20px;
+font-size:15px;
+padding-left:3rem;
+padding-bottom:.8rem;
+FONt-FAMILY:system-ui;
+}
+</div>
